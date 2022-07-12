@@ -12,7 +12,13 @@
     <link rel="" href="" />
   </head>
   <body>
-    <!-- input tag is inline -->
+    <!-- 
+        input tag is inline 
+        novalidate => form submit without any valiations
+        target="_blank" => open new tab when submit
+
+
+    -->
 
     <h1>Form</h1>
     <form action="index.html" method="GET">
@@ -62,12 +68,12 @@
           maxlength="20"
         />
       </div>
-      <br />
+      <hr />
       <div>
         <label for="">Color</label>
         <input name="color" type="color" placeholder="Color" />
       </div>
-      <br />
+      <hr />
       <div>
         <label for="">Range</label>
         <input
@@ -93,6 +99,146 @@
           value="0"
         />
       </div>
+
+      <hr />
+      <div>
+        <input
+          id="win"
+          name="radio"
+          type="radio"
+          placeholder="radio"
+          value="windows"
+        />
+        <label for="win">Windows</label>
+      </div>
+
+      <div>
+        <input
+          id="mac"
+          name="radio"
+          type="radio"
+          placeholder="radio"
+          value="mac"
+        />
+        <label for="mac">Mac</label>
+      </div>
+      <div>
+        <input
+          id="lin"
+          name="radio"
+          type="radio"
+          placeholder="radio"
+          value="linux"
+        />
+        <label for="lin">Linux</label>
+      </div>
+      <hr />
+
+      <div>
+        <input
+          id="win1"
+          name="radio"
+          type="checkbox"
+          placeholder="radio"
+          value="windows"
+        />
+        <label for="win1">Windows</label>
+      </div>
+
+      <div>
+        <input
+          id="mac1"
+          name="radio"
+          type="checkbox"
+          placeholder="radio"
+          value="mac"
+        />
+        <label for="mac1">Mac</label>
+      </div>
+      <div>
+        <input
+          id="lin1"
+          name="radio"
+          type="checkbox"
+          placeholder="radio"
+          value="linux"
+        />
+        <label for="lin1">Linux</label>
+      </div>
+      <hr />
+      <div>
+        <label for="sel">Select</label>
+        <select id="sel" name="sel">
+          <option value="select">select</option>
+          <optgroup label="Romantic">
+            <option value="1">Book 1</option>
+            <option value="2">Book 2</option>
+            <option value="3">Book 3</option>
+          </optgroup>
+          <optgroup label="Drama">
+            <option value="4">Book 4</option>
+            <option value="5">Book 5</option>
+            <option value="6">Book 6</option>
+          </optgroup>
+        </select>
+      </div>
+      <hr />
+      <div>
+        <label for="list">Data List</label>
+        <input list="programming" name="prog" placeholder="select" />
+        <datalist id="programming">
+          <option value="Python"></option>
+          <option value="PHP"></option>
+          <option value="C"></option>
+          <option value="C++"></option>
+          <option value="C#"></option>
+          <option value="Java"></option>
+          <option value="JavaScript"></option>
+          <option value="R"></option>
+          <option value="Ruby"></option>
+          <option value="Dart"></option>
+        </datalist>
+      </div>
+      <hr />
+      <label for="">Text Area</label>
+      <textarea
+        name="textArea"
+        id="txtarea"
+        cols="30"
+        rows="10"
+        placeholder="Text Area"
+      ></textarea>
+      <hr />
+      <div>
+        <label>Upload</label>
+        <input type="file" placeholder="file" />
+      </div>
+      <hr />
+      <div>
+        <label>Search</label>
+        <input type="search" placeholder="Search" />
+      </div>
+      <hr />
+      <div>
+        <label>Url</label>
+        <input type="url" placeholder="Url" />
+      </div>
+      <hr />
+      <div>
+        <label>Date</label>
+        <input type="date" placeholder="date" />
+      </div>
+      <hr />
+      <div>
+        <label>Month</label>
+        <input type="month" placeholder="month" />
+      </div>
+      <hr />
+      <div>
+        <label>Time</label>
+        <input type="time" placeholder="time" />
+      </div>
+      <hr />
       <br />
       <div>
         <input type="reset" value="Reset" />

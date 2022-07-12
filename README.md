@@ -1,2 +1,2 @@
 # HTML-Practicing
-a rep for HTML-Practicing
+a repo for HTML-Practicing

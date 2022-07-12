@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- This meta for text lang support -->
+    <meta charset="UTF-8" />
+    <!-- This meta for website description -->
+    <meta name="description" content="This is our book store" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Book Store</title>
+    <style></style>
+    <script></script>
+    <link rel="" href="" />
+  </head>
+  <body>
+    <!-- input tag is inline -->
+
+    <h1>Form</h1>
+    <form action="index.html" method="GET">
+      <div>
+        <label for="">Email</label>
+        <input
+          name="email"
+          type="email"
+          placeholder="Email"
+          required
+          readonly
+          value="zeyad@gmail.com"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="">Email</label>
+        <input
+          name="email"
+          type="email"
+          placeholder="Email"
+          required
+          disabled
+          value="zeyad@gmail.com"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="">Username</label>
+        <input
+          name="user"
+          value="zoz"
+          type="text"
+          placeholder="Username"
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <label for="">Password</label>
+        <input
+          name="pass"
+          type="password"
+          placeholder="Password"
+          autofocus
+          minlength="6"
+          maxlength="20"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="">Color</label>
+        <input name="color" type="color" placeholder="Color" />
+      </div>
+      <br />
+      <div>
+        <label for="">Range</label>
+        <input
+          name="range"
+          type="range"
+          placeholder="Range"
+          max="100"
+          min="0"
+          step="20"
+          value="0"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="">Number</label>
+        <input
+          name="number"
+          type="number"
+          placeholder="number"
+          max="100"
+          min="0"
+          step="10"
+          value="0"
+        />
+      </div>
+      <br />
+      <div>
+        <input type="reset" value="Reset" />
+        <input type="submit" value="Save" />
+      </div>
+    </form>
+  </body>
+</html>
